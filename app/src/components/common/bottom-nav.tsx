@@ -49,12 +49,11 @@ export function BottomNav() {
             <div className="px-2">
               <button
                 aria-label="Add expense"
-                className="relative -translate-y-8 rounded-full bg-[linear-gradient(180deg,var(--color-banana-500),#f7cf55)] p-1 shadow-[0_10px_18px_rgba(78,53,6,0.16)]"
+                className="relative rounded-full"
                 onClick={openActionSheet}
                 type="button"
               >
-                <span className="flex size-15 items-center justify-center rounded-full bg-[var(--color-banana-950)] text-[var(--color-banana-50)] ring-4 ring-[rgba(255,249,231,0.96)]">
-                  <Plus className="size-6" />
+                <span className="flex size-15 items-center justify-center rounded-full border-2 border-(--color-banana-500) bg-(--color-banana-950) text-(--color-banana-50) ring-4 ring-[rgba(255,249,231,0.96)] outline-2 outline-(--color-banana-500)">
                 </span>
               </button>
             </div>
